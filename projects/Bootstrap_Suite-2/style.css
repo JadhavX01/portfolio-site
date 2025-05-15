@@ -1,0 +1,52 @@
+/* html {
+    scroll-behavior: smooth;
+}
+
+.main{
+ 
+}
+.carousel{
+    position: absolute;
+}
+.navbar-nav .nav-link {
+    font-size: 2rem;
+  }
+
+
+  .navbar-brand {
+    font-size: 2.4rem;
+  }
+
+  .navbar-toggler-icon {
+    width: 1.75rem; 
+    height: 1.75rem;
+    font-size: bold; 
+  }
+
+  .rooms{
+    margin-top: 00px;
+  } */
+
+  .main{
+    position: relative;
+    width: 100%;
+  }
+  .naavbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* z-index: 1; */
+  }
+  .rooms{
+    text-align: center;
+    margin: 20px 0;
+  }
+  .card-text{
+    text-align: center;
+  }
+  .card-text span{
+    color: gray;
+  }
+  .video .vdo{
+
+  }

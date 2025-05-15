@@ -1,0 +1,279 @@
+.bg-container {
+  background-image: url('./bg_hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white; 
+}
+
+.navbar a {
+  color: white !important;
+}
+
+.navbar-toggler {
+  border-color: white; 
+}
+/*  */
+.template{
+  margin-top: 25%; 
+  transform: translateY(-50%); 
+  text-align: start;
+}
+
+.template .h1{
+  font-weight: 700;
+}
+.template p{
+  font-weight: 500;
+
+}
+
+/*  */
+
+/*button  */
+
+.btn-primary {
+  background: transparent;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6c757d;
+  border-color: #793AD1;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+/* Hover effect */
+.btn-primary:hover {
+  background: linear-gradient(to right, #7B3FF2, #9B3FF2); /* Purple to blue gradient */
+  color: #fff;
+  border: none;
+  /* transition: all 0.5s ease; */
+}
+
+/*  */
+/*  */
+.countdown {
+  background-color: black;
+  padding: 120px 0;
+}
+
+.countdown h6 {
+  letter-spacing: 2px;
+  font-size: 0.875rem;
+}
+
+.countdown .display-1 {
+  font-size: 4.5rem;
+}
+
+.countdown p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.btn-custom {
+  background: linear-gradient(to right, #7B3FF2, #9B3FF2);
+  color: white;
+  border: none;
+  min-width: 200px;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(to right, #9B3FF2, #7B3FF2);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(123, 63, 242, 0.4);
+  color: white;
+}
+/*  */
+
+/* services  */
+
+.services .card:hover {
+  transform: translateY(-10px);
+  background: linear-gradient(to right, #793AD1, #CF3AA0); /* Gradient on hover */
+}
+.services .card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.service-card {
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card .card-body {
+  padding: 2rem;
+}
+
+.services h6 {
+  font-weight: 600;
+  color: #666;
+}
+/*  */
+
+/* pricing */
+.pricing {
+  background-color: black;
+}
+
+.price-card.custom-card {
+  background-color: #7B3FF2 !important; /* Added !important to override Bootstrap */
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.price-card .card-text {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.price-card .price-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 2px;
+}
+
+.price-card .currency {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.price-card .decimal {
+  font-size: 1rem;
+}
+
+.price-card hr {
+  margin: 1.5rem 0;
+}
+
+.price-card .btn-outline-light {
+  border-width: 1px;
+  padding: 8px 24px;
+}
+
+.price-card .btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: white;
+}
+
+/*  */
+.features {
+  background-image: url('./bg_hero_2.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  color: white;
+}
+
+
+.features h6 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  
+}
+
+.features h1 {
+  font-weight: bold;
+}
+
+.features .card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background 0.3s ease;
+  background: linear-gradient(to right, #000000, #434343); /* Initial gradient */
+}
+
+.features .card:hover {
+  transform: translateY(-10px);
+  background: linear-gradient(to right, #793AD1, #CF3AA0); /* Gradient on hover */
+}
+
+.features .card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.features p {
+  font-size: 0.9rem;
+}
+.testimonial {
+    background-color: black;
+    position: relative;
+    padding-top: 5rem;
+  }
+  
+  .black-bg {
+    padding: 10rem 0; /* Adjusts the vertical padding for the black background */
+  }
+  
+  .white-box {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    /* border-radius: 12px; */
+    padding: 2rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    top: -100px; 
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .people {
+    color: black;
+  }
+  
+  .testimonial-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 1rem 0;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+  }
+  
+  .carousel-inner p {
+    color: #333; 
+  }
+
+  .team{
+    margin-top: 6rem;
+  }
+  
+.twin{
+  padding-bottom: 100px;
+}
+
+.btn:hover{
+  background: linear-gradient(to right, #9B3FF2, #7B3FF2);
+  transform: translateY(-3px);
+  transition: transform 0.3s ease, background 0.3s ease;
+  color: white;
+}
+.container.team .bg-black {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0; 
+}
+.copyright{
+  margin-top: 200px;
+}
+
+.footer{
+  margin-top: 100px;
+}

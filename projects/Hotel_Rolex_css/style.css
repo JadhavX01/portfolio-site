@@ -1,0 +1,824 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2E0000;
+    color: white;
+    padding: 20px 0;
+    font-size:15px;
+}
+.hero{
+    width: 100%;
+    background-image: url(./h1_hero.jpg);
+    background-repeat: no-repeat;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.hero .main h1{
+    font-size:30px;
+    color: white;
+}
+
+
+
+.hero .main nav{
+    display: none;
+}
+.hero .headline{
+    text-align: center;
+    padding: 100px 0 90px  0 ;
+    color: white;
+}
+.hero .headline h1{
+    font-size: 60px;
+    font-weight: lighter;
+}
+.hero .inputs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero input,select,button{
+    padding: 4% 8%;
+    margin: 10px 10px;
+    width: 94%;
+    background: transparent;
+    color: white;
+    border: none;
+    border: 1px solid white;
+}
+.hero .inputs label{
+  margin: 0 10px;
+  color: white;
+}
+.hero .inputs button{
+    background-color: white;
+    color: black;
+    margin-bottom: 10%;
+}
+
+/*  View */
+
+.view{
+    /* width: 100%; */
+    /* margin: 20% 0 0 0; */
+    /* padding-bottom: 25%; */
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.view .iii img{
+    width: 100%;
+    padding: 10px 10px;
+}
+.view .llll h2{
+    color: gray
+}
+.view .lll h2{
+    color: rgb(70, 65, 65);
+    font-weight: 100;
+    margin: 20px 10px;
+}
+.view .lll p{
+    line-height: 23px;
+    margin: 36px 14px 10px 14px;
+    color:rgb(161, 156, 156);
+}
+.view .lll button{
+    color: #E7BAAB;
+    border: 1px solid #E7BAAB;
+    width: 40%;
+}
+.view .aboutright{
+    display: none;
+}
+
+/*  */
+
+.boxes{
+    background-color: #F9F8F8;
+    /* width: 100%; */
+}
+.rooms{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 10px 60px 20px;
+}
+.rooms h2{
+    margin-bottom: 20px;
+}
+.rooms p{
+    color: rgb(106, 101, 101);
+    line-height: 25px;
+}
+.rooms .fa-solid{
+    display: none;
+}
+.photos{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+.photos .pic1{
+    position: relative;
+}
+.photos .pic1 .ttt{
+    position: absolute;
+    top: 170px;
+    left: 130px;
+    color: white;
+}
+.photos .pic1 h4,h5,h6{
+    font-weight: lighter;
+    font-size: large;
+}
+.photos .pic1 h6 span{
+    font-weight: lighter;
+    font-size: 30px;
+    font-weight: bolder;
+
+
+}
+ .photos .pic1 img{
+    width: 87%;
+    padding: 20px 10px 1px 50px;
+ }
+ .photos .pic2{
+    display: none;
+
+ }
+ .photos .pic3{
+    display: none;
+ }
+ .ttt{
+    position: relative;
+ }
+ .ttt p{
+    position: absolute;
+    top: 10px;
+    color: yellowgreen;
+ }
+
+.boxes{
+    width: 100%;
+}
+.boxend p,a{
+    padding: 6%;
+    text-align: center;
+}
+.boxend {
+    text-align: center;
+}
+.boxend p{
+    font-size: 27px;
+    color: rgb(24, 22, 22);
+}
+
+.boxend a{
+    text-decoration: none;
+    border-bottom: 1px dashed black;
+    color: black;
+}
+
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+ .last img{
+    width: 100%;
+    margin: 20% 0 0 0;
+}
+.last .wd{
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* padding: 0 0 90px 0; */
+}
+.last div h4{
+    font-size: 50px;
+    padding: 70px 0;
+    font-weight: lighter;
+    padding: 20px;
+}
+.last div p{
+    padding: 10px 20px 25px 20px;
+}
+.last div button{
+    width: 50%;
+    border: 1px solid #E7BAAB;
+    color: #E7BAAB;
+
+}
+.mountain{
+    background-image: url(./video-bg.jpg);
+    height: 80vh;
+    background-size: cover;
+    margin: 20px;
+}
+.mountain img {
+    /* width: 100%; */
+    /* height: 300vh; */
+    padding: 0 10px;
+    /* object-fit: contain; */
+}
+.ooo,h3{
+    text-align: center;
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 50px 0;
+}
+.bottels {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.one,.two,.three{ 
+    position: relative;
+}
+.one img,.two img,.three img{
+    width: 100%;
+    padding: 20px 15px;
+}
+.one p,.two p,.three p{
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+/* Desc */
+
+.desc{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* overflow-x: auto; */
+    background-color: #B86E5A;
+}
+/* doubt scroll */
+.desc div{
+    width: 100%;
+    background-color: #B86E5A;
+    padding: 20px 10px 40px 24px;
+    font-size: 20px;
+    gap: 100px;
+    border: none;
+    color: white;
+}
+.desc .d2,.d3{
+    display: none;
+}
+/* end */
+.end{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.end div {
+    margin: 40px 0;
+}
+.end div span{
+    color: #B86E5A;
+    cursor: pointer;
+}
+.end div,p{
+    color: white;
+    line-height: 25px;
+}
+.end div input{
+    width: 100%;
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+    border: 1px solid white;
+    padding: 10px;
+}
+.end .search button{
+    margin-top: 20px;
+    margin-left: 0;
+    border: none;
+    width: 100%;
+    padding: 14px;
+    background-color: #B86E5A;
+}
+
+footer{
+    background-color: black;
+    color: gray;
+    padding: 30px 20px;
+    text-align: center;
+}
+footer span{
+    color: #B86E5A;
+}
+
+
+@media only screen and (min-width:768px){
+   
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+        background-color: #2E0000;
+        color: white;
+        font-size:15px;
+    }
+    .hero .main h1{
+        font-size:25px;
+        font-weight: lighter;
+        padding-left: 20px;
+        color: white;
+    }
+    /*  */
+    
+    .main{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid white;
+        padding: 20px 0px;
+    }
+    .hero .main nav{
+        display: block;
+    }
+
+    .main nav ul li {
+        margin-left: 46px;
+    }
+
+    .main nav a{
+        margin-right: 17px;
+        padding: 10px 0px 0px 0px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    .main nav a span{
+        background-color: rgba(226,156,137,0.9 );
+        /* padding: 20px 55px 32px 55px; */
+    }
+    .main nav ul,li{
+        list-style:none;
+    }
+
+    /*  */
+    .view div img{
+        width: 80%;
+        padding: 50px 40px;
+    }
+   
+    .view div h2,p{
+       padding-left: 20px;
+       line-height:35px;
+    }
+    .view div button{
+        width: 30%;
+        padding: 20px 10px;
+        margin-left: 30px;
+    }
+    .rooms{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 100px 40px 50px;
+        margin: 10px 30x 0 30px;
+    }
+    .rooms div h2{
+        font-size: 40px;
+        font-weight: 100;
+    }
+    .rooms div p{
+        padding-left: 0px;
+    }
+    
+    .rooms .fa-solid{
+        margin-left: 20px;
+        display: inline;
+        color: #2E0000;
+
+    }
+    .photos{
+        width: 40%;
+        height: 30vh;
+     }
+    
+    .mnl{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 1px solid; */
+        padding-bottom: 60px;
+        border: none;
+        margin-top: 80px;
+    }
+    .mmm{
+        width: 50%;
+    }
+
+    .wes{
+        width: 33%;
+    }
+    .view{
+        width: 100%;
+        margin: 30px 0 0 0;
+        padding-bottom: 10%; 
+    }
+    .view .iii{
+        margin-right: 100px;
+    }
+    .view div img{
+        width: 80%;
+        padding: 50px 10px 50ps 0px;
+    }
+    .view .lll{
+        margin-top: 40px;
+        padding: 0 252px 0 110px;
+    }
+    .view h2{
+        font-size: 40px;
+    }
+    .view .lll p{
+        line-height: 30px;
+        font-size: 26px;
+    }
+    .rooms .ddd{
+        margin-top: 30px;
+    }
+    .rooms .ddd  .fa-arrow-left{
+        padding-right: 25px;
+    }
+    .photos{
+        width: 100%;
+    }
+    .photos .pic1{
+        width: 100%;
+    }
+    .photos .pic1 img{
+        width: 90%;
+    }
+    .photos .pic2{
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .photos .pic2 img{
+        width: 76%;
+        padding: 20px 0px 0px 0px;
+
+    }
+    /*  */
+    .photos .pic2 .ttt{
+        position: absolute;
+        top: 170px;
+        left: 60px;
+        color: white;
+    }
+    .photos .pic2 h4,h5,h6{
+        font-weight: lighter;
+        font-size: large;
+    }
+    .photos .pic2 h6 span{
+        font-weight: lighter;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    /*  */
+    .boxend p{
+        margin: 100px 87px 0px 68px;
+        text-align: center;
+        line-height: 70px;
+        padding: 100px 120px 50px 120px;
+        font-size: 60px;
+    }
+    .boxend a{
+        padding-bottom: 1px;
+        font-size: 30px;
+        border-bottom: 1px dashed black;
+    }
+
+    /*  */
+    .last{
+        width: 100%;
+        flex-wrap: nowrap;
+        margin-top: 10%;
+        /* padding: 3% 20%; */
+    }
+    .wine{
+        width: 100%;
+    }  
+    .wine img{
+        width: 100%;
+        margin: 0;
+        /* padding-bottom: 20px; */
+    }
+
+    
+     .wd{
+        width: 100%;
+        /* height: 34vh; */
+        background-color: black;
+        color: white;
+        text-align: center;
+        /* padding: 0; */
+        line-height: 28px;
+}
+
+
+    .last div h4{
+        font-size: 30px;
+        padding: 70px 0;
+        font-weight: lighter;
+        padding: 20px;
+    }
+    .last div p{
+        padding: 10px 20px 25px 20px;
+    }
+    .last div button{
+        width: 50%;
+        border: 1px solid #E7BAAB;
+        color: #E7BAAB;
+    
+    }
+    .bottels{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .bottels .one{
+        width: 45%;
+    }
+    .bottels .two{
+        width: 45%;
+    }
+    .bottels .three{
+        width: 45%;
+    }
+    .desc .d2,.d3{
+        display: block;
+    }
+    .end{
+        width: 100%;
+    }
+    .end div{
+        width: 45%;
+        padding: 0 30px;
+    }
+    .end .ccc h2,span{
+        margin: 20px;
+    }
+    .end .search{
+        margin-right: 80px;
+    }
+    .end .search h2{
+        margin: 13px;
+    }
+    .end .search p{
+        padding-left: 10px;
+        font-weight: lighter;
+    }
+    
+}
+@media only screen and (min-width:1440px){
+    .container{
+        width: 100%;
+    }
+    header{
+        /* padding-right: 100px; */
+    }
+
+    
+    .main{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid white;
+        padding: 20px 0px;
+    }
+    .hero .main nav{
+        display: block;
+    }
+
+    .main nav ul li {
+        margin-left: 70px;
+    }
+
+    .main nav a{
+        margin-right: 40px;
+        padding: 10px 0px 0px 0px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    .main nav a span{
+        background-color: rgba(226,156,137,0.9 );
+        padding: 20px 55px 32px 55px;
+    }
+    .main nav ul,li{
+        list-style:none;
+    }
+    /*  */
+
+    .hero .headline {
+        /* height: 100vh; */
+    }
+    .hero .headline h1{
+        font-size: 100px;
+        padding: 20px 10px 60px 10px;
+        /* margin: 20px 90px 60px 100px; */
+        font-weight: lighter;
+    }
+
+    /*  */
+    .mnl{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid;
+        padding-bottom: 100px;
+        border: none;
+        margin-top: 80px;
+        gap: 13px;
+    }
+    .mmm{
+        width: 18%;
+    }
+    .mmm input{
+        border-bottom:3px solid white;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    .wes{
+        width: 18%;
+        margin-top: 17px;
+    }
+    .wes select,button{
+        border: 3px solid white;
+    }
+   /*  */
+   .view {
+    margin-top: 100px;
+    margin-left: 10%;
+    width: 80%;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.view .iii,.lll,.aboutright{
+    width: 30%;
+}
+.view .iii,.lll,.aboutright{
+    width: 100%;
+}
+.view .iii img{
+    width: 100%;
+}
+.view .lll{
+    /* border: 1px solid; */
+    padding: 0px 20px 0 0px;
+    margin-right: 100px;
+    /* margin-top: 10px; */
+}
+.view .lll h2,p{
+    margin: 0;
+    padding: 0;
+}
+.view .lll p{
+    margin-left: 1px;
+}
+.view .lll button{
+    margin-left: 10px;
+    /* padding:0px 0px 15px 1px; */
+    /* margin-top: 10px; */
+}
+.view .aboutright {
+    display: block;
+    margin-top: 1px;
+}
+.view .aboutright  img{
+    width:70%;
+    padding:0 ;
+}
+/*  */
+
+.photos{
+    width: 100%;
+}
+.photos .pic1{
+    width: 35%;
+}
+.photos .pic1 img{
+    width: 100%;
+}
+.photos .pic2{
+    width: 35%;
+}
+.photos .pic2 img{
+    width: 87%;
+}
+.photos .pic3{
+    display: block;
+    width: 35%;
+    position: relative;
+    top: 20px;
+
+}
+.photos .pic3 img{
+    width: 87%;
+}
+/*  */
+.photos .pic3 .ttt{
+    position: absolute;
+    top: 160px;
+    left: 60px;
+    color: white;
+}
+.photos .pic3 h4,h5,h6{
+    font-weight: lighter;
+    font-size: large;
+}
+.photos .pic3 h6 span{
+    font-weight: lighter;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.wine{
+    width: 100%;
+}  
+.wine img{
+    width: 100%;
+    margin: 0;
+    /* padding-bottom: 20px; */
+}
+
+.wine img{
+    /* height: 42vh; */
+}
+ .wd{
+    width: 100%;
+    /* height: 42vh; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0;
+    /* line-height: 28px; */
+}
+.wd p{
+line-height: 24px;
+}
+.bottels{
+    justify-content: space-evenly;
+}
+.bottels .one{
+    width: 30%;
+}
+.bottels .two{
+    width:30%;
+}
+.bottels .three{
+    width: 30%;
+}
+.desc{
+    justify-content: space-evenly;
+}
+.desc .d1{
+    margin-left: 6%;
+}
+.desc .d2{
+    margin-left: 10%;
+}
+.desc .d3{
+    margin-left: 10%;
+}
+
+.end{
+    width: 100%;
+    padding: 60px;
+}
+
+.end div{
+    width: 20%;
+}
+.wd{
+    line-height: 24px;
+    padding: 100px 0px;
+}
+
+}

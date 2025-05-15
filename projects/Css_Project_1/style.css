@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: border-box; */
+}
+
+body {
+  height: 100vh;
+  background-size: cover;
+  /* box-sizing: inherit; */
+  overflow: inherit;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.navbar ul li {
+  display: inline;
+}
+a:hover {
+  background-color: rgb(205, 196, 196);
+}
+.left a {
+  margin-right: 9px;
+  letter-spacing: 4px;
+}
+.right {
+  margin-left: 20px;
+  letter-spacing: 4px;
+}
+.navbar {
+  height: 55px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  font-size: 1rem;
+  position: fixed;
+  top: 0px;
+}
+
+/* burger-img */
+
+.burger-img {
+  background-image: url("asset 0.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+}
+
+.letter {
+  color: rgb(93, 89, 89);
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 23px;
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight:lighter ;
+}
+/* About catering */
+
+#container{
+  display: flex;
+}
+
+.img{
+  height: 90%;
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.text h1{
+  letter-spacing: 4px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 20% ;
+}
+
+.text{
+  height:430%;
+  width: 40%; 
+  margin-right: 20%;
+  line-height: 1.5;
+  
+}
+
+.heading{
+  text-align: center;
+  letter-spacing: 4px;
+}
+#first{
+  color: black;
+}
+
+#second{
+  color: grey;
+}
+
+
+
+
+hr{
+  margin-top: 10%;
+  border-color: rgba(0, 0, 0, 0.1); 
+}
+
+/* menu */
+.next{
+  display: flex;
+
+}
+#menu-pic{
+  margin-top: 3%;
+  margin-left: 5%;
+  /* filter: grayscale(40%); */
+  opacity: 0.8;
+
+}
+
+#food{
+  margin-left: 8%;
+}
+
+#food .head{
+  letter-spacing: 3px;
+  font-size:xx-large ;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.gap{
+letter-spacing: 5px;
+margin-top: 10%;
+font-size: large;
+padding-left: 10%;
+}
+
+.gray-line{
+  color: gray;
+  padding-top: 10px;
+  padding-left: 10%;
+  letter-spacing: 3px;
+}
+
+hr{
+  margin-top: 10%;
+  border-color: rgba(0, 0, 0, 0.1); 
+}
+
+#contact{
+  letter-spacing: 5px;
+  font-weight: 100;
+  margin-top: 10%;
+  margin-left: 3%;
+}
+
+#con-info{
+  margin-left: 3%;
+  margin-top: 6%;
+}
+
+#Catering{
+  color: rgb(98, 124, 161);
+  margin-left: 3%;
+  margin-top: 3%;
+  /* font-weight: 300; */
+}
+
+#con-in{
+  margin-left: 3%;
+  margin-top: 2%;
+}
+.lin{
+  margin-top: 1px;
+  width:100% ;
+  margin-left: 5%;
+
+}
+.nm{
+  padding-right: 100%;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-bottom: 1%;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+
+input{
+  border: none;
+}
+
+.date{
+  padding-right: 100%;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-bottom: 1%;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+.num{
+  padding-right: 100%;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-bottom: 1%;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+button{
+padding: 10px 18px 10px 18px;
+border: none;
+margin-top: 3%;
+margin-left: 4%;
+letter-spacing: 1px;
+cursor: pointer;
+}
+
+footer{
+  width: 100%;
+  background-color: rgb(241, 233, 233);
+  height: 100%;
+  width: 100%;
+  margin-top: 10%;
+  padding-top: 100px;
+}
+
+footer p{
+  text-align: center;
+}
+#last{
+  padding-bottom: 50px;
+  
+}
